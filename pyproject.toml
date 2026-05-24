@@ -18,8 +18,5 @@ build = [
     "pyinstaller>=6.0",
 ]
 
-[project.scripts]
-co2-control-app = "co2_control_app.main:main"
-
 [tool.setuptools.packages.find]
 where = ["src"]
